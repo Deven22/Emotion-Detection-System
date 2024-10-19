@@ -1,0 +1,99 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0e4e8;
+    background-image: url('images/bg.jpg');
+    background-size: cover;
+    background-position: center -150px; /* Shift the background image upwards by 50px */
+    padding: 40px;
+    color: #333;
+    height: 100vh; /* Ensure the body takes full viewport height */
+    display: flex;
+    align-items: flex-start; /* Align items closer to the top */
+    justify-content: center;
+    margin: 0;
+}
+
+.container {
+    max-width: 700px;
+    width: 100%; /* Ensure it adjusts responsively */
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    transform: translateY(50px); /* Move the container further upwards */
+}
+
+h1 {
+    color: #007BFF;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 120px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.1em;
+    resize: none;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.3em;
+    color: #333;
+    text-align: center;
+}
+
+/* Styling for emotion images */
+.emotion-images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.emotion {
+    text-align: center;
+}
+
+.emotion img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    padding: 5px;
+    background-color: #f4f4f4;
+}
+
+.emotion p {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #555;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    color: #777;
+    font-size: 0.9em;
+}
